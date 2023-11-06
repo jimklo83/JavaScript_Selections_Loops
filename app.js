@@ -36,10 +36,13 @@ for (let i = 1; i <= 100; i++)
 console.log("EXERCISE 3.1:\n==========\n");
 let whileEnd = 0
 
-while (whileEnd <= 100) 
+while (whileEnd <= 99) 
 {
-    console.log(whileEnd)
     whileEnd++
+    if (whileEnd % 2 != 0) 
+    {
+        console.log(whileEnd)
+    }
 }
 
 console.log("EXERCISE 3.2:\n==========\n");
@@ -65,7 +68,7 @@ do
         console.log(doWhileEnd)
     }
 }
-while (doWhileEnd <= 100) 
+while (doWhileEnd <= 99) 
 
 // Exercise 4 Section
 console.log("EXERCISE 4:\n==========\n");
